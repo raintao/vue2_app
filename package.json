@@ -1,8 +1,8 @@
 {
-  "name": "vue_app",
+  "name": "vue2_app",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "levo <zhangtao13140725@163.com>",
+  "author": "'levo' <'zhangtao13140725@163.com'>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -13,8 +13,13 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
+    "echarts": "^3.4.0",
+    "mint-ui": "^2.2.1",
     "vue": "^2.2.2",
-    "vue-router": "^2.2.0"
+    "vue-resource": "^1.2.1",
+    "vue-router": "^2.3.0",
+    "vue-swipe": "^2.0.2",
+    "vuex": "^2.2.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
@@ -56,7 +61,9 @@
     "karma-webpack": "^2.0.2",
     "lolex": "^1.5.2",
     "mocha": "^3.2.0",
+    "node-sass": "^4.5.0",
     "chai": "^3.5.0",
+    "sass-loader": "^6.0.3",
     "sinon": "^1.17.7",
     "sinon-chai": "^2.8.0",
     "inject-loader": "^2.0.1",
