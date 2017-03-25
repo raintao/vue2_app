@@ -10,17 +10,12 @@ const mainWork = r => require.ensure([], () => r(require('../pages/main/work.vue
 const mainContacts = r => require.ensure([], () => r(require('../pages/main/contacts.vue')))
 const mainMy = r => require.ensure([], () => r(require('../pages/main/my.vue')))
 
-//消息中子页面
-const msgNewFriend = r => require.ensure([], () => r(require('../pages/main/newFriend.vue')))
-//DING中新建ding任务
-const addDing = r => require.ensure([], () => r(require('../pages/main/addDing.vue')))
 
 //appstore子项目页面
 
 const AppStore = r => require.ensure([], () => r(require('../pages/appStore/index')))
 const appList = r => require.ensure([], () => r(require('../pages/appStore/appList')))
 const appDetail = r => require.ensure([], () => r(require('../pages/appStore/appDetail')))
-
 const Other = r => require.ensure([], () => r(require('../pages/appStore/other')))
 const Socket = r => require.ensure([], () => r(require('../pages/appStore/socket')))
 

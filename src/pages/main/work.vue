@@ -1,6 +1,7 @@
 <template>
-	<div class="cont-wap">this is work page
-		<p><button @click="jump">应用商店</button></p>
+	<div class="cont-wap">
+		<p>this is work page</p>
+		<p><button @click="jump">点击跳转应用商店</button></p>
 		<main-footerNav></main-footerNav>
 	</div>
 
@@ -15,12 +16,15 @@
 		},
 		methods:{
 			jump:function(){
-				router.push({path:'/recommend/children/application'});
+				router.push({path:'/appstore'});
 			}
 		}
 
 	}
 </script>
-<style>
-
+<style lang="scss" scoped>
+	.cont-wap{
+		text-align: center;
+		>p{font-size: 3rem;}
+	}
 </style>
