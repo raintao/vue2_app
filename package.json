@@ -14,7 +14,10 @@
   },
   "dependencies": {
     "echarts": "^3.4.0",
+    "fs": "0.0.1-security",
     "mint-ui": "^2.2.1",
+    "socket.io": "^1.7.3",
+    "tls": "0.0.1",
     "vue": "^2.2.2",
     "vue-resource": "^1.2.1",
     "vue-router": "^2.3.0",
