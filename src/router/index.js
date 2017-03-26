@@ -26,7 +26,7 @@ const routes = [{
 
   path:'/',component:App,
   children:[
-    { path: "",redirect:"/appstore" },
+    { path: "",redirect:"/mainWork" },
     { path: "/mainMsg",component: mainMsg },
     { path: "/mainDing",component: mainDing},
     { path: "/mainWork",component: mainWork},
