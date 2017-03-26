@@ -91,7 +91,7 @@ vuex2做了一个移动端的demo，并封装成了app并调用了手机的一�
 
 ## 9.1打包平台
 
-### 目前能打包成app的平台很多，随着淘宝weex的开源，让webapp又火了一把，目前可以打包成app的平台总结了几个：pnonegap ，APICloud，appcan，wex5 ，weex，具体怎么应用大家可以自己去各自的官网详细了解。
+### 目前能打包成app的平台很多，随着淘宝weex的开源，让webapp又火了一把，目前可以打包成app的平台总结了几个：pnonegap ，APICloud，appcan，wex5 ，weex，IUAP Mobile具体怎么应用大家可以自己去各自的官网详细了解。
 
 ## 9.2调用底层
 
