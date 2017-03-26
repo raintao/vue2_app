@@ -85,7 +85,7 @@ vuex2做了一个移动端的demo，并封装成了app并调用了手机的一�
 
 # 8.websocket
 
-  &emsp;&emsp; WebSocket协议是基于TCP的一种新的协议。WebSocket最初在HTML5规范中被引用为TCP连接，作为基于TCP的套接字API的占位符。它实现了浏览器与服务器全双工(full-duplex)通信。这个需要用nodejs做后台才能正常测试demo，后台代码在根目录下的static文件夹中。可以测试一下。  
+  &emsp;&emsp; WebSocket协议是基于TCP的一种新的协议。WebSocket最初在HTML5规范中被引用为TCP连接，作为基于TCP的套接字API的占位符。它实现了浏览器与服务器全双工(full-duplex)通信。这个需要用nodejs做后台才能正常测试demo，后台代码在根目录下的static文件夹中socket_server.js。可以测试一下。  
 
 # 9.打包成app，调用手机底层应用，比如相机等
 
