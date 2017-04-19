@@ -94,6 +94,9 @@
 @import '../../static/css/comment.scss';
   .applist{
       padding-top: 4rem;
+      >p{
+        >img{width: 100%;}
+      }
       >div{
         padding-left: 1rem;
         >ul{
