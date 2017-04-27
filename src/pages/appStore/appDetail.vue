@@ -3,11 +3,11 @@
     <header-view :headerObj="{title:'产品详情',count:0}"></header-view>
     <div class="appShow">
             <p>{{items}}</p>
-            <div class="imgTd"><img :src="item.imgSrc" alt=""></div>
+            <div class="imgTd"><img :src="item.imgsrc" alt=""></div>
             <div>
                 <h4>{{item.title}}</h4>
-                <p>{{item.fullName}}</p>
-                <p v-if="item.isOK">钉钉安全认证</p>
+                <p>{{item.fullname}}</p>
+                <p v-if="item.isok">钉钉安全认证</p>
                 <div v-if="item.star==5">
                   <img :src="starSrc" alt="">
                   <img :src="starSrc" alt="">
@@ -76,8 +76,12 @@
         this.mtIsActive=false;
         var that=this;
         document.body.scrollTop=0;
-        this.$http.get('./static/appDetail.json',{appid:this.appid}).then(res=>{
-          that.item=res.data;
+        this.$http.get('./static/appDetail.json',{"appid":this.appid}).then(res=>{
+          this.item=JSON.parse(res.data).backData;
+          console.log("res=>1",res);
+          console.log("res.data=>2",res.data);
+          console.log("res.data=>typeof",typeof(res.data));
+          console.log("res.data.backData=>3",JSON.parse(res.data).backData);
         },err=>{
           console.log(err);
         });
@@ -86,9 +90,10 @@
     components:{HeaderView},
     methods:{
       getItem(){
-        var that=this;
-        this.$http.get('./static/appDetail.json',{appid:this.appid}).then(res=>{
-          that.item=res.data;
+        this.$http.get('./static/mockData.json').then(res=>{
+
+          // es6=>不影响上下文this
+          this.item=res.data.data;
         },err=>{
           console.log(err);
         });

@@ -41,8 +41,10 @@ export default {
     ...mapActions({incrment:'routerQuery'}),
     http1:function(){
       this.$http.get('./static/mockData.json').then(res=>{
+        // this.msg=JSON.parse(res.data).data;
         this.msg=res.data.data;
         console.log(res);
+        console.log("typeof(res.data)=>"+typeof(res.data),res.data);
         },err=>{
         this.msg=res;
       });
