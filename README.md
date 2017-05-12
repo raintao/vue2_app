@@ -3,6 +3,8 @@ vuex2做了一个移动端的demo，并封装成了app并调用了手机的一�
 
 
 # 编译好的代码和打包好的apk文件在dist文件夹下！
+### [vue2高仿网易云应用](https://github.com/raintao/musicWebapp.git)
+### [vu2移动端的架构，封装app](https://github.com/raintao/vue2_app_template.git)
 
 
 # 1.项目从零开始搭建
@@ -105,3 +107,5 @@ vuex2做了一个移动端的demo，并封装成了app并调用了手机的一�
 &emsp;&emsp;![socket](https://github.com/raintao/vue2_app/blob/master/src/assets/5.png?raw=true)
 
 # 11. 最后在项目的dist文件里面有编译好的源码和已经打包好的apk包，谢谢！
+### [vue2高仿网易云应用](https://github.com/raintao/musicWebapp.git)
+### [vu2移动端的架构，封装app](https://github.com/raintao/vue2_app_template.git)

@@ -12,6 +12,9 @@
 		}
 	}
 </script>
-<style>
-
+<style type="scss" scoped>
+	.cont-wap{
+		text-align: center;
+		padding-top:20px;
+	}
 </style>
